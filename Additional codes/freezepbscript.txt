@@ -1,0 +1,9 @@
+python3 freeze_graph.py \
+--input_graph=training_logs/best_model/semanticsegmentation_enet.pbtxt \
+--input_checkpoint=training_logs/best_model/model_1_epoch_25_final.ckpt \
+--output_graph=training_logs/best_model/semanticsegmentation_frozen_enet.pb \
+--output_node_names=fullconv/Relu \
+--input_binary=False
+
+
+

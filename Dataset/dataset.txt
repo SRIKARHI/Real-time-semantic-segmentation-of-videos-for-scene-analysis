@@ -1,0 +1,1 @@
+Download leftimg8bit and gtfine from "www.CityscapesDataset.com" website.
